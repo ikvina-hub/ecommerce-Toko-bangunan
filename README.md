@@ -81,7 +81,7 @@ Authorization: Bearer {token}
 
 ●Dokumentasi
 
-Pengujian API dilakukan menggunakan Postman dan ditampilkan dalam laporan berupa screenshot setiap endpoint.
+Pengujian API dilakukan menggunakan Thunder Client dan ditampilkan dalam laporan berupa screenshot setiap endpoint.
 
 
 

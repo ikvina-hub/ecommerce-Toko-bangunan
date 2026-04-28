@@ -1,9 +1,8 @@
 <p align="center">
-  <img src="https://laravel.com/img/logomark.min.svg" width="120" alt="Laravel Logo">
+    <a href="https://laravel.com" target="_blank">
+        <img src="https://laravel.com/img/logotype.min.svg" width="400" alt="Laravel Logo">
+    </a>
 </p>
-
-<h1 align="center">Laravel</h1>
-
 ● Web API Manajemen Produk
 
 ● Deskripsi

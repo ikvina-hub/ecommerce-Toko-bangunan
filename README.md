@@ -1,6 +1,21 @@
 <p align="center">
-  <img src="./public/logo.png" width="300">
+    <a href="https://laravel.com" target="_blank">
+        <img src="https://laravel.com/img/logotype.min.svg" width="400" alt="Laravel Logo">
+    </a>
 </p>
+
+<p align="center">
+<a href="#"><img src="https://img.shields.io/badge/tests-passing-brightgreen" alt="Tests"></a>
+<a href="#"><img src="https://img.shields.io/badge/downloads-520M-blue" alt="Downloads"></a>
+<a href="#"><img src="https://img.shields.io/badge/version-v1.0-orange" alt="Version"></a>
+<a href="#"><img src="https://img.shields.io/badge/license-MIT-green" alt="License"></a>
+</p>
+
+---
+
+## About Project
+
+Deskripsi project kamu di sini.
 
 ● Web API Manajemen Produk
 

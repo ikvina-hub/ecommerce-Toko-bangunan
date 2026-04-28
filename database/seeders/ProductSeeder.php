@@ -3,13 +3,15 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use App\Models\Product; // Pastikan Model Product dipanggil
+use App\Models\Product;
+use Illuminate\Support\Facades\DB;
 
 class ProductSeeder extends Seeder
 {
     public function run(): void
     {
-        Product::truncate();
+        DB::table('products')->delete();
+
         Product::insert([
             [
                 'kode_barang' => 'BRG-001',
@@ -17,7 +19,9 @@ class ProductSeeder extends Seeder
                 'kategori' => 'Material Dasar',
                 'stok_tersedia' => 150,
                 'harga_satuan' => 65000,
-                'satuan' => 'Sak'
+                'satuan' => 'Sak',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'kode_barang' => 'BRG-002',
@@ -25,7 +29,9 @@ class ProductSeeder extends Seeder
                 'kategori' => 'Cat & Pelapis',
                 'stok_tersedia' => 45,
                 'harga_satuan' => 185000,
-                'satuan' => 'Galon'
+                'satuan' => 'Kaleng',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'kode_barang' => 'BRG-003',
@@ -33,33 +39,40 @@ class ProductSeeder extends Seeder
                 'kategori' => 'Plumbing',
                 'stok_tersedia' => 300,
                 'harga_satuan' => 25000,
-                'satuan' => 'Batang'
+                'satuan' => 'Batang',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
-
             [
-                'kode_barang' => 'IKVINA-STI202303738-04',
+                'kode_barang' => 'BRG-004',
                 'nama_barang' => 'Keramik Lantai Premium',
                 'kategori' => 'Interior',
                 'stok_tersedia' => 80,
                 'harga_satuan' => 75000,
-                'satuan' => 'Box'
+                'satuan' => 'Box',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
-                'kode_barang' => 'IKVINA-STI202303738-05',
+                'kode_barang' => 'BRG-005',
                 'nama_barang' => 'Besi Hollow 4x4',
                 'kategori' => 'Baja Ringan',
                 'stok_tersedia' => 120,
                 'harga_satuan' => 95000,
-                'satuan' => 'Batang'
+                'satuan' => 'Batang',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
-                'kode_barang' => 'IKVINA-STI202303738-06',
+                'kode_barang' => 'BRG-006',
                 'nama_barang' => 'Batu Bata Merah',
                 'kategori' => 'Material Dasar',
                 'stok_tersedia' => 1000,
                 'harga_satuan' => 800,
-                'satuan' => 'Unit'
-            ]
+                'satuan' => 'Unit',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
         ]);
     }
 }

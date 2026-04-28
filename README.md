@@ -2,7 +2,6 @@
   <img src="https://laravel.com/img/logomark.min.svg" width="150">
 </p>
 
-
 ● Web API Manajemen Produk
 
 ● Deskripsi
@@ -27,7 +26,7 @@ API dikembangkan sebagai bagian dari tugas UTS Mobile Programming Lanjut.
 - PHP
 - Laravel
 - MySQL
-- Postman (untuk testing API)
+- Thunder Client untuk Pengujian API
 
 
 

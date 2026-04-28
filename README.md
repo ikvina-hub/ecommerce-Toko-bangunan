@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://laravel.com/img/logomark.min.svg" width="150">
+</p>
+
+
 ● Web API Manajemen Produk
 
 ● Deskripsi
